@@ -17,9 +17,36 @@
  * your config/ folder, alongside this one.
  */
 
+use craft\helpers\App;
+
 return [
-    'modules' => [
-        'blog' => \modules\Blog::class,
+    '*' => [
+        'id' => App::env('APP_ID') ?: 'CraftCMS',
+        'modules' => [
+            'my-module' => modules\Module::class,
+        ],
+        'bootstrap' => [
+            'my-module'
+        ],
     ],
-   'bootstrap' => ['blog'],
+    'production' => [
+        'components' => [
+            'redis' => [
+                'class' => yii\redis\Connection::class,
+                'hostname' => parse_url(getenv('REDIS_URL'), PHP_URL_HOST),
+                'port' => parse_url(getenv('REDIS_URL'), PHP_URL_PORT),
+                'password' => parse_url(getenv('REDIS_URL'), PHP_URL_PASS),
+                'useSSL' => true,
+            ],
+            'session' => [
+                'class' => yii\redis\Session::class,
+                'as session' => [
+                    'class' => \craft\behaviors\SessionBehavior::class
+                ]
+            ],
+            'mutex' => [
+                'mutex' => yii\redis\Mutex::class,
+            ],
+        ]
+    ]
 ];
