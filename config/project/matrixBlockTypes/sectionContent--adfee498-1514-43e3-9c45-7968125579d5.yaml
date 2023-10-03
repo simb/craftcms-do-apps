@@ -1,0 +1,137 @@
+field: 3fde6c7e-8cd8-4fc2-9adb-9d5c6d555cb4 # Section Content
+fieldLayouts:
+  dac2092e-9aa1-4c85-af0a-0b552e7b2230:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5465b06b-5f72-4499-9e6f-9e73c60ab071 # Section Number
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2c83c0fd-0acb-4714-aef6-6652e612b8df
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bec31d32-1e0d-4d07-b1ff-f78e1cae14bc # Section Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 541f6f5c-b698-42ef-8a39-ffecbffaf41c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8f5f867f-d5b4-4238-a8c6-f94d8b867b98 # Section Sub Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c45cb5d-a943-409e-8ec3-1c66a9ff13da
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1174f43f-a27a-4ce2-ab29-ffcd367a206f # Top Border
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 043ea155-b812-46c9-9843-e3d13f69685e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e66b7834-21a0-4c57-bad9-7af81ca3fb33
+        userCondition: null
+fields:
+  8f5f867f-d5b4-4238-a8c6-f94d8b867b98: # Section Sub Label
+    columnSuffix: fwuuuuup
+    contentColumnType: text
+    fieldGroup: null
+    handle: sectionSubLabel
+    instructions: null
+    name: 'Section Sub Label'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  1174f43f-a27a-4ce2-ab29-ffcd367a206f: # Top Border
+    columnSuffix: hfxxpwve
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: topBorder
+    instructions: null
+    name: 'Top Border'
+    searchable: false
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  5465b06b-5f72-4499-9e6f-9e73c60ab071: # Section Number
+    columnSuffix: uzbnpxtg
+    contentColumnType: text
+    fieldGroup: null
+    handle: sectionNumber
+    instructions: null
+    name: 'Section Number'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  bec31d32-1e0d-4d07-b1ff-f78e1cae14bc: # Section Label
+    columnSuffix: saekbdci
+    contentColumnType: text
+    fieldGroup: null
+    handle: sectionLabel
+    instructions: null
+    name: 'Section Label'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: sectionContent
+name: 'Section Content'
+sortOrder: 1

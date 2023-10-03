@@ -1,0 +1,76 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 3fde6c7e-8cd8-4fc2-9adb-9d5c6d555cb4 # Section Content
+fieldLayouts:
+  8f6f8c3b-107e-478a-b570-c6a5ddcdf08a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0b29b8fa-c036-4d15-995a-df2478b32c2e # Section Number
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bfe739b6-48a9-4a97-8859-3c70e74e7d61
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1c02d94b-06f2-48ba-8e99-6539e04f9ace # Section Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: acdd5046-f00b-4dca-92ac-b00abe242d27
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2ae2e773-5edf-47ad-b80e-550cb643d9a0 # Sub Section Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a6701272-007d-4436-b924-7c76b2b245a7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9b17c1f6-e0c8-41fe-beb0-a432bccc4a08 # Top Border
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6714666d-94cd-4f18-9e3f-74b109b70118
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: eaeb0c9a-5d2b-4405-a667-0b0d8eb99271
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: sectionContent
+icon: null
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Section Content'
+sortOrder: 1
+topLevel: true

@@ -1,0 +1,66 @@
+fieldLayouts:
+  943c26e0-272c-4106-9296-38449a0c8e8a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: cdacccb6-c328-4994-93e6-4c0085b16417
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            attribute: alt
+            class: null
+            cols: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: true
+            required: false
+            rows: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AltField
+            uid: a161568a-33e4-4f82-b99d-e28f0a547779
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a0cfcf8d-5bbd-48e0-be08-e8727375ac73
+        userCondition: null
+fs: encoreDoSpace
+handle: publicSiteContent
+name: 'Public Site Content'
+sortOrder: 1
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

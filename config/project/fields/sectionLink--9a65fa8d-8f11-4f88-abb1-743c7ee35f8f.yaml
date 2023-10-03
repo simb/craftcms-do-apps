@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 234b64bf-47dc-4ece-80f7-c0d6805ac11e # Content Entry Fields
+handle: sectionLink
+instructions: null
+name: 'Section Link'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_sectionlink}}'
+  maxBlocks: 1
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

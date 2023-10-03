@@ -1,0 +1,46 @@
+columnSuffix: iblegpiv
+contentColumnType: string(2)
+fieldGroup: 234b64bf-47dc-4ece-80f7-c0d6805ac11e # Content Entry Fields
+handle: heroSize
+instructions: null
+name: 'Hero Size'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Small
+        -
+          - value
+          - sm
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Medium
+        -
+          - value
+          - md
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Large
+        -
+          - value
+          - lg
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

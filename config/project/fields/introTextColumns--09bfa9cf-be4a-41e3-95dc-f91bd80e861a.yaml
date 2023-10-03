@@ -1,0 +1,35 @@
+columnSuffix: okfhppag
+contentColumnType: char
+fieldGroup: 234b64bf-47dc-4ece-80f7-c0d6805ac11e # Content Entry Fields
+handle: introTextColumns
+instructions: null
+name: 'Intro Text Columns'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - '1'
+        -
+          - value
+          - '1'
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - '2'
+        -
+          - value
+          - '2'
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons

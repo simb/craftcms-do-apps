@@ -1,0 +1,19 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 049a258f-cdac-44c4-b7e9-19efb67e7117 # Hero
+group: null
+groupChildBlockTypes: true
+handle: contactUs
+icon: null
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: 'Contact Us'
+sortOrder: 2
+topLevel: true

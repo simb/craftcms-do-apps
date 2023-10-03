@@ -1,0 +1,56 @@
+defaultPlacement: end
+enableVersioning: false
+handle: pages
+name: Pages
+previewTargets:
+  __assoc__:
+    -
+      - 2
+      -
+        __assoc__:
+          -
+            - label
+            - 'DO Prod'
+          -
+            - urlFormat
+            - 'https://encore-amc-client-prod-o76zk.ondigitalocean.app/api/preview?uri={slug}'
+          -
+            - refresh
+            - '1'
+    -
+      - 1
+      -
+        __assoc__:
+          -
+            - label
+            - 'Local Preview'
+          -
+            - urlFormat
+            - 'http://localhost:3000/api/preview?uri={slug}'
+          -
+            - refresh
+            - '1'
+    -
+      - 0
+      -
+        __assoc__:
+          -
+            - label
+            - 'Primary entry page'
+          -
+            - urlFormat
+            - '{url}'
+          -
+            - refresh
+            - '1'
+propagationMethod: all
+siteSettings:
+  999bbe58-90cd-478b-9db9-f355c5563ad4: # Encore AMC
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: null
+  uid: c5cf1084-deb5-42fa-b81c-19c09a8c2fc4
+type: structure

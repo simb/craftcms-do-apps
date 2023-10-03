@@ -1,0 +1,14 @@
+columnSuffix: tcifswsb
+contentColumnType: boolean
+fieldGroup: 234b64bf-47dc-4ece-80f7-c0d6805ac11e # Content Entry Fields
+handle: backgroundNoise
+instructions: null
+name: 'Background Noise'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

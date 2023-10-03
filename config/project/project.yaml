@@ -1,27 +1,127 @@
-dateModified: 1651775509
+dateModified: 1696353597
 email:
-  fromEmail: hello@oof.studio
-  fromName: 'App Platform Demo'
+  fromEmail: simeon@simb.co
+  fromName: 'Encore AMC'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  encoreDoSpace:
+    hasUrls: true
+    name: 'Encore DO Space'
+    settings:
+      bucket: $DO_SPACES_BUCKET
+      contentDisposition: ''
+      endpoint: $DO_SPACES_ENDPOINT
+      expires: '24 hours'
+      keyId: $DO_SPACES_KEY
+      region: $DO_SPACES_REGION
+      secret: $DO_SPACES_SECRET
+      subfolder: assets
+    type: vaersaagod\dospaces\Fs
+    url: $DO_SPACES_CDN_URL
+
 meta:
   __names__:
-    6c9d74c1-44a3-4df8-a762-50e25d167bd9: 'App Platform Demo' # App Platform Demo
-    b821c0cc-b45f-4bfc-9a78-9c7e5e92a4a6: Common # Common
-    c6f77845-bd3b-450d-8584-ca62929e2909: 'App Platform Demo' # App Platform Demo
+    0b29b8fa-c036-4d15-995a-df2478b32c2e: 'Section Number' # Section Number
+    0edebd3c-4b85-4fe6-9279-c80f05253dae: 'Bullet Text List' # Bullet Text List
+    1c02d94b-06f2-48ba-8e99-6539e04f9ace: 'Section Label' # Section Label
+    2ae2e773-5edf-47ad-b80e-550cb643d9a0: 'Sub Section Label' # Sub Section Label
+    2b9e5709-7fcb-4335-98d5-72a2054c771b: Default # Default
+    2c76eea1-b58d-48b7-8ea3-fe8769399236: 'Left Headline' # Left Headline
+    3f15a6f0-af6e-4bf0-8e87-9b43b3e6d9ef: 'Encore AMC' # Encore AMC
+    3fde6c7e-8cd8-4fc2-9adb-9d5c6d555cb4: 'Section Content' # Section Content
+    05a36ec6-adbf-482e-b3d8-d231e6369240: 'Right Headline' # Right Headline
+    5bf6bb5d-97f3-4ab5-94cc-c77be198053f: Content # Content
+    5f4e4146-2f51-44be-8552-754fd70284de: 'Background Color' # Background Color
+    5f9c1957-affa-4480-8b55-2571d2a271e5: 'Section Link' # Section Link
+    8d7ed899-0b48-4c06-bcdd-e008669ba816: 'Background Image' # Background Image
+    8ea0dce0-c302-4f93-871c-133aa14cf60e: 'Text Color Theme' # Text Color Theme
+    8f5f867f-d5b4-4238-a8c6-f94d8b867b98: 'Section Sub Label' # Section Sub Label
+    9a65fa8d-8f11-4f88-abb1-743c7ee35f8f: 'Section Link' # Section Link
+    9b17c1f6-e0c8-41fe-beb0-a432bccc4a08: 'Top Border' # Top Border
+    09bfa9cf-be4a-41e3-95dc-f91bd80e861a: 'Intro Text Columns' # Intro Text Columns
+    11e8c5dc-ab77-4581-980e-4e25203e6311: Default # Default
+    12e29efb-5108-4db2-a49c-3cc0e17b7691: Common # Common
+    36e7c04c-c7d9-4c6c-b3cb-e36396834aa7: 'Hero Right Text' # Hero Right Text
+    42d23722-8860-49d3-b16c-55fc329aec3a: 'Disclaimer Text' # Disclaimer Text
+    049a258f-cdac-44c4-b7e9-19efb67e7117: Hero # Hero
+    67fa3906-b039-439d-80f1-b53effb960dc: Center # Center
+    71f23d0c-7806-490f-a3f3-7cde516ac254: 'Page Builder' # Page Builder
+    71f89410-1606-4a6b-9bda-9800190d50e7: 'Page Content' # Page Content
+    80ad750d-be0d-423d-98c4-323d6d18b0b1: 'Section Content' # Section Content
+    114d5c91-6435-4df3-8690-0580e7d9edd9: 'Intro Text' # Intro Text
+    234b64bf-47dc-4ece-80f7-c0d6805ac11e: 'Content Entry Fields' # Content Entry Fields
+    320ef983-2cd9-4072-a942-1fcb6d727992: 'Public Site Content' # Public Site Content
+    958a7dd9-cdb1-4d3f-ba2b-334f39d8c71f: Pages # Pages
+    999bbe58-90cd-478b-9db9-f355c5563ad4: 'Encore AMC' # Encore AMC
+    1174f43f-a27a-4ce2-ab29-ffcd367a206f: 'Top Border' # Top Border
+    5465b06b-5f72-4499-9e6f-9e73c60ab071: 'Section Number' # Section Number
+    87465f69-ba5d-485f-92f0-a81144543030: 'Hero Height' # Hero Height
+    740455a2-d2df-4407-8558-8eca5c0df724: 'Hero Size' # Hero Size
+    919100a9-720f-4942-bce5-a77a42069891: 'Background Noise' # Background Noise
+    2034444b-6198-419d-b095-47b61f9bd6f4: 'Headline Text' # Headline Text
+    adfee498-1514-43e3-9c45-7968125579d5: 'Section Content' # Section Content
+    ae4beb8b-82c4-444b-9f97-b9b8799ff103: 'Rich Content' # Rich Content
+    ae6ce46f-7d19-4682-98ca-8eea2b053548: 'Public Schema' # Public Schema
+    b806c8e0-8c6d-487d-a6f8-0a6d35f93b52: 'Link Text' # Link Text
+    bc1dcf8f-69d5-482f-b94c-07433ae33f71: Static # Static
+    bec31d32-1e0d-4d07-b1ff-f78e1cae14bc: 'Section Label' # Section Label
+    c2bdd0b0-8cbc-476a-91a8-a9fad481e4d8: Transactions # Transactions
+    d7d708bb-8ba2-495d-b8f6-8058568f4b6d: 'Link URL' # Link URL
+    d17bd40b-caf2-42ea-870e-9bef077bcf4e: 'Side By Side List' # Side By Side List
+    da3a6170-b940-42ef-a4da-99671959d74f: 'Link URL' # Link URL
+    e21d2283-562d-4246-9ec9-4d6003ef1bcd: 'Intro Text' # Intro Text
+    ea70283d-a91d-4691-8ea9-e5bfaaf710e4: 'Link Text' # Link Text
+    eac39f50-c56e-43a6-89d2-9be6b09ca4be: 'Contact Us' # Contact Us
+    eef7cbdc-c387-47f1-909c-1166ddabaf9a: 'Hero Left Text' # Hero Left Text
+    f0e0cd31-f251-4c56-8dd9-87cc8e7872d8: 'Link Position' # Link Position
+    f0591e3e-27c3-499a-9aa1-08c63aa3d5e0: 'Side By Side Content' # Side By Side Content
+    fd5c4f07-baa2-4c0e-97a7-eebb4a47836b: 'Image CTA' # Image CTA
 plugins:
   dospaces:
     edition: standard
     enabled: true
     schemaVersion: 2.0.0
+  freeform:
+    edition: lite
+    enabled: true
+    licenseKey: GBXJ06KY6QTBMRX7HG5R27O2
+    schemaVersion: 4.2.7
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: 2UU3706U59B98ROY6K5QZ3ZU
+    schemaVersion: 2.0.7
+  neo:
+    edition: standard
+    enabled: true
+    licenseKey: HBO5Z5N4HVWNK9LLBMBZQRQL
+    schemaVersion: 3.6.2
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  retour:
+    edition: standard
+    enabled: true
+    licenseKey: K9HU775912RTDLBVZYWWB4IE
+    schemaVersion: 3.0.12
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: PXGJAD3ZQ8OZUYFIJ3RJ0IMW
+    schemaVersion: 3.0.12
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
 system:
-  edition: solo
+  edition: pro
   live: true
-  name: 'App Platform Demo'
+  name: 'Encore AMC'
   schemaVersion: 4.5.3.0
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
-  deactivateByDefault: false
   defaultGroup: null
   photoSubpath: null
   photoVolumeUid: null

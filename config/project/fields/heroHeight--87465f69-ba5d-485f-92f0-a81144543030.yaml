@@ -1,0 +1,35 @@
+columnSuffix: spbexwfr
+contentColumnType: string(8)
+fieldGroup: 234b64bf-47dc-4ece-80f7-c0d6805ac11e # Content Entry Fields
+handle: heroHeight
+instructions: null
+name: 'Hero Height'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Fixed
+        -
+          - value
+          - fixed
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Variable
+        -
+          - value
+          - variable
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

@@ -1,0 +1,9 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sites.999bbe58-90cd-478b-9db9-f355c5563ad4:read' # Encore AMC
+  - 'elements.drafts:read'
+  - 'sections.958a7dd9-cdb1-4d3f-ba2b-334f39d8c71f:read' # Pages
+  - 'entrytypes.2b9e5709-7fcb-4335-98d5-72a2054c771b:read' # Default
+  - 'entrytypes.bc1dcf8f-69d5-482f-b94c-07433ae33f71:read' # Static
+  - 'volumes.320ef983-2cd9-4072-a942-1fcb6d727992:read' # Public Site Content

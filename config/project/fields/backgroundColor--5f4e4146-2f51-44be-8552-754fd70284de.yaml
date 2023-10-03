@@ -1,0 +1,90 @@
+columnSuffix: diuvdnqz
+contentColumnType: string(22)
+fieldGroup: 234b64bf-47dc-4ece-80f7-c0d6805ac11e # Content Entry Fields
+handle: backgroundColor
+instructions: null
+name: 'Background Color'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Light Blue'
+        -
+          - value
+          - enc-powder-10
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Mid Blue'
+        -
+          - value
+          - enc-mid-blue
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Dark Blue'
+        -
+          - value
+          - enc-dark-blue-gradient
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - White
+        -
+          - value
+          - enc-white
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Light Gold'
+        -
+          - value
+          - enc-gold-10
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Mid Gold'
+        -
+          - value
+          - enc-mid-gold
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Dark Gold Gradient'
+        -
+          - value
+          - enc-dark-gold-gradient
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

@@ -1,0 +1,126 @@
+field: 9a65fa8d-8f11-4f88-abb1-743c7ee35f8f # Section Link
+fieldLayouts:
+  b706288a-5777-4945-9f98-ca624b6c3b95:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b806c8e0-8c6d-487d-a6f8-0a6d35f93b52 # Link Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0fc75ae4-92b7-4ee5-8528-0288c41e3e3b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: da3a6170-b940-42ef-a4da-99671959d74f # Link URL
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0905ce22-1b7e-4549-9fbf-ac0af94b14e0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f0e0cd31-f251-4c56-8dd9-87cc8e7872d8 # Link Position
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 20844015-2358-49bc-87d2-501e0d152da0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6198a9dd-edda-4b25-a8a2-96fe7a1a41d7
+        userCondition: null
+fields:
+  b806c8e0-8c6d-487d-a6f8-0a6d35f93b52: # Link Text
+    columnSuffix: fqhbmeft
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkText
+    instructions: null
+    name: 'Link Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  da3a6170-b940-42ef-a4da-99671959d74f: # Link URL
+    columnSuffix: juitdrfi
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkUrl
+    instructions: null
+    name: 'Link URL'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f0e0cd31-f251-4c56-8dd9-87cc8e7872d8: # Link Position
+    columnSuffix: uorvrbxe
+    contentColumnType: string(5)
+    fieldGroup: null
+    handle: linkPosition
+    instructions: null
+    name: 'Link Position'
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Start
+            -
+              - value
+              - start
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - End
+            -
+              - value
+              - end
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+handle: sectionLink
+name: 'Section Link'
+sortOrder: 1

@@ -1,0 +1,166 @@
+childBlocks: null
+conditions: null
+description: 'Primary Hero for content pages'
+enabled: true
+field: 049a258f-cdac-44c4-b7e9-19efb67e7117 # Hero
+fieldLayouts:
+  02471cf1-2172-434c-9355-a491ee7e1eed:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2034444b-6198-419d-b095-47b61f9bd6f4 # Headline Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 09b35e2b-24df-4a69-a9a6-5fbb715d40e8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e21d2283-562d-4246-9ec9-4d6003ef1bcd # Intro Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2c706946-642c-4321-893c-a0477da01a78
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 42d23722-8860-49d3-b16c-55fc329aec3a # Disclaimer Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d8fe5b0b-4767-40b1-b316-9e4a1df5d3c8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: eef7cbdc-c387-47f1-909c-1166ddabaf9a # Hero Left Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9350d5ba-b707-41fc-8518-5b1da89431e1
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 36e7c04c-c7d9-4c6c-b3cb-e36396834aa7 # Hero Right Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7b5cc953-7b05-4961-a525-6cf37f09443f
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: b58bb682-ea53-4b15-a93f-f78ca774cf95
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 8d7ed899-0b48-4c06-bcdd-e008669ba816 # Background Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 40ff169a-327b-41fe-96fc-aada8197d1c9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5f4e4146-2f51-44be-8552-754fd70284de # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5ec4a615-49c8-4168-a89c-c8b0dee331df
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 919100a9-720f-4942-bce5-a77a42069891 # Background Noise
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b1fd9ac5-6e8c-436b-b404-3033b662ee70
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8ea0dce0-c302-4f93-871c-133aa14cf60e # Text Color Theme
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fe6de7dd-a471-4fe9-a796-95c4da4e605d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 87465f69-ba5d-485f-92f0-a81144543030 # Hero Height
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d4e11457-a56b-42b9-b01a-ffc6cbbc8434
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 740455a2-d2df-4407-8558-8eca5c0df724 # Hero Size
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 36158f25-32a3-44c3-9509-a2d7fecc5d09
+            userCondition: null
+            warning: null
+            width: 100
+        name: Design
+        uid: 3cd029dc-37fb-41e6-94aa-05a7a419a678
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: centerHero
+icon: null
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Center
+sortOrder: 1
+topLevel: true
