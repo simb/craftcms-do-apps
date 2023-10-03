@@ -18,6 +18,6 @@
  * set to the value `2012`.
  */
 
-return [
-
+ return [
+    'api' => 'graphql/api',
 ];
