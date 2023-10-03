@@ -19,7 +19,7 @@
     "ext-mbstring": "*",
     "craftcms/cms": "^4.0.0",
     "vaersaagod/dospaces": "^2.0.0",
-    "vlucas/phpdotenv": "^5.4.0",
+
     "yiisoft/yii2-redis": "^2.0"
   },
   "require-dev": {

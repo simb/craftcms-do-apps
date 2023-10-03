@@ -20,33 +20,5 @@
 use craft\helpers\App;
 
 return [
-    '*' => [
-        'id' => App::env('APP_ID') ?: 'CraftCMS',
-        'modules' => [
-            'my-module' => modules\Module::class,
-        ],
-        'bootstrap' => [
-            'my-module'
-        ],
-    ],
-    'production' => [
-        'components' => [
-            'redis' => [
-                'class' => yii\redis\Connection::class,
-                'hostname' => parse_url(getenv('REDIS_URL'), PHP_URL_HOST),
-                'port' => parse_url(getenv('REDIS_URL'), PHP_URL_PORT),
-                'password' => parse_url(getenv('REDIS_URL'), PHP_URL_PASS),
-                'useSSL' => true,
-            ],
-            'session' => [
-                'class' => yii\redis\Session::class,
-                'as session' => [
-                    'class' => \craft\behaviors\SessionBehavior::class
-                ]
-            ],
-            'mutex' => [
-                'mutex' => yii\redis\Mutex::class,
-            ],
-        ]
-    ]
+    'id' => App::env('CRAFT_APP_ID') ?: 'CraftCMS',
 ];
